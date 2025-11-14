@@ -1,22 +1,21 @@
 const learnBtn = document.querySelector('.btn[href="#testimoni"]');
 if (learnBtn) {
-    learnBtn.addEventListener('click', e => {
-        e.preventDefault();
-        const target = document.querySelector('#testimoni');
-        if (target) {
-            target.scrollIntoView({ behavior: 'smooth' });
-        }
-    })
+  learnBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    const target = document.querySelector("#testimoni");
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  });
 }
-ss
-// notif stlh submit
-const form = document.querySelector(".contact-form"); //queryselector utk ambil data
-if(form){
-    form.addEventListener("submit", e => {
-        e.preventDefault();
-        alert("pesan berhasil dikirim");
-        form.reset();
-    })
+
+const form = document.querySelector(".contact-form");
+if (form) {
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    alert("pesan berhasil dikirim!");
+    form.reset();
+  });
 }
 const scrollTopBtn = document.getElementById("scrollTopBtn");
 window.onscroll = () => {
