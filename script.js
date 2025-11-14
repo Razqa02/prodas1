@@ -18,7 +18,6 @@ if(form){
         form.reset();
     })
 }
-
 const scrollTopBtn = document.getElementById("scrollTopBtn");
 window.onscroll = () => {
   if (document.documentElement.scrollTop > 200) {
@@ -30,4 +29,3 @@ window.onscroll = () => {
 scrollTopBtn.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
-
