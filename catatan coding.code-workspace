@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "../catatan coding"
+		},
+		{
+			"path": "../codingan"
+		},
+		{
+			"path": "../xampp/htdocs"
+		},
+		{
+			"path": "../laragon/htdocs"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Tugas Progdas",
+		"vscode-pets.theme": "winter",
+		"vscode-pets.throwBallWithMouse": true,
+		"vscode-pets.petSize": "medium",
+		"files.associations": {
+			"*.embeddedhtml": "html",
+			"*.html": "html",
+			"iomanip": "cpp"
+		}
+	}
+}
